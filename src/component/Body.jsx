@@ -4,9 +4,12 @@ import Footer from "./Footer";
 
 const Body=()=>{
     return(
-    <><NavBar />
-    <Outlet/>
+    <>
+   
+   
+     <NavBar />
+      <Outlet/>
     <Footer />
-    </>)
-}
+    </>
+    )}
 export default Body;
