@@ -9,6 +9,7 @@ import Profile from './component/Profile'
 import Feed from './component/Feed'
 import { BrowserRouter, Routes ,Route} from 'react-router-dom'
 import appStore from './utils/appStore'
+import Logout from './component/Setting'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
          <Route path="/Feed" element={<Feed />}/>
           <Route path="/Login" element={<Login />}/>
            <Route path="/Profile" element={<Profile />}/>
+           
         </Route>
         
       </Routes>
